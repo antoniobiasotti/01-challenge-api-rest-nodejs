@@ -1,6 +1,6 @@
 # 01-challenge-api-rest-nodejs
 This API will function as a CRUD for a todo app.
-Funcionalitys:
+Funcionalities:
 - [ ] Create a task
 - [ ] List all tasks
 - [ ] Update a task by id
@@ -19,7 +19,12 @@ Structuring Routes - List/Create:
 2. Created a list variable for storing the tasks
 3. Yet not decided about Stateless or Statefull application, but probably Statefull
 
-Created a response for condition GET/tasks: 
+Created a response if request on route GET/tasks: 
 1. Destructuring the response object to get the method and url
 2. Define a response if the method is a GET and the url is /tasks
-3. Converted the response data (tasks) to a JSON string structure
+3. Converted the response data (tasks) to a JSON string structure for the front-end
+4. Setted the reponse header of Content-type to be application/json
+
+Created a response if request on route POST/tasks:
+1. Push the Array object of the request to the Array of tasks on the application memory
+2. 
