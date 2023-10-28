@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
                updated_at: '',
           })
           return res
-               .end('Criação de Task')
+               .writeHead(201).end()
      }
 
      return res.end('hello world')
