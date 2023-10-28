@@ -27,4 +27,4 @@ Created a response if request on route GET/tasks:
 
 Created a response if request on route POST/tasks:
 1. Push the Array object of the request to the Array of tasks on the application memory
-2. 
+2. Defined a 201 status code - "Created" - as a parameter to the method writeHead to the response 
