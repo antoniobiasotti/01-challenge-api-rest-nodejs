@@ -7,7 +7,6 @@ const server = http.createServer((req, res) => {
 
      console.log(method, url)
      console.log(req.headers)
-     console.log(res.headers)
      
      if (method === 'GET' && url === '/tasks') {
           return res
