@@ -11,7 +11,7 @@ Funcionalities:
 
 First Commit:
 1. Created server
-2. Setted server to listen on 3333
+2. Setted server to listen on port 3333
 3. Created dev script with flag --watch
 
 Structuring Routes - List/Create:
